@@ -27,7 +27,9 @@ println(b);
   }
 
   public void draw() {
-    fill(r,g,b);
+    fill(random(0 ,255) ,
+	              random(0 ,255),
+								 random(0 ,255));
 
     rect(mouseX, mouseY, 25, 25);
   }
